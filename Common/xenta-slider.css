@@ -1,0 +1,72 @@
+.xentaslider-wrapper { 
+    width: auto; 
+    float: left; 
+    position: relative; 
+    padding-right: 2%; 
+    padding-top: 10px; 
+    }
+.xentaslider { 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    height: 392px; 
+    background: #eee; 
+    }
+.image_reel { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    }
+.image_reel img { 
+    float: left; 
+    width: 20%; 
+    height: 392px;
+    }
+.paging { 
+    background: none; 
+    position: absolute; 
+    bottom: 15px; 
+    right: 20px; 
+    padding:4px 0 2px; 
+    z-index: 100; 
+    display: none; 
+    }
+.paging a { 
+    margin: 3px; 
+    background: #fff; 
+    width: 10px; 
+    height:10px; 
+    display: inline-block; 
+    border: none; 
+    outline: none;
+    }
+.paging a.active { 
+    background: #0078d6; 
+    border: 1px solid #0078d6; 
+    }
+.paging a:hover {
+}
+.xentatitledes { 
+    width:70%; 
+    display: none; 
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px; 
+    z-index: 101; 
+    background: #0078d6;
+    background: rgba(26, 115, 154); 
+    padding: 10px 15px; 
+    }
+.xentatitledes a { 
+    color: #ffffff; 
+    font: 22px Droid Sans Mono; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    }
+.xentatitledes a:hover { 
+    color:#29FF00 
+    }
+.xentatitledes p { 
+    color: #fff; 
+    font: 14px Droid Sans Mono; 
+    }

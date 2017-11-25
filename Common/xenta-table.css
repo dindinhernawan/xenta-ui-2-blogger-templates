@@ -1,0 +1,24 @@
+/* CSS for xenta Table in index.html                     */
+/* Name     : Xenta Table                                */
+/* Design   : Dindin Hernawan <dindin_hernawan@yahoo.com */
+/* Licensed : GNU GPLv3.0                                */
+/*                                                       */
+.xenta-table {
+width: 100%;
+border-collapse: collapse;
+box-shadow: 0 2px 3px 1px #0E0E0E;
+overflow: hidden;
+border:10px solid #161616;
+}
+.xenta-table th,.xenta-table td{
+vertical-align: center;
+padding:10px 7px;
+text-align: center;
+margin:0;
+}
+.xenta-table tbody tr:nth-child(odd) { 
+/* Ganti Warna Belang Dibawah :  */
+background:#161616;
+}
+/* End CSS for xenta Table in index.html */
+
