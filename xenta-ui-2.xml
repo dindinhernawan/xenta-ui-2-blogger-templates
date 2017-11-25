@@ -97,7 +97,7 @@ Name		: Xenta UI 2
 Designer	: Dindin Hernawan & Danyliuk
 URL			: http://www.xentaos.org/
 Email		: root@dev.xentaos.org
-License		: CC BY SA 4.0
+License		: MIT License
 */
 
 body{overflow-x: hidden;}
